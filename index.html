@@ -173,6 +173,10 @@ button:hover {
   </div>
 </div>
 <script>
+document.getElementById('menu').addEventListener('click', function() {
+        // Замените URL ниже на нужный Вам адрес
+        window.location.href = 'https://suspect147.github.io/clicker-test/';
+});
 function saveCoins() {
 localStorage.setItem('coinCount', coinCount);
 localStorage.setItem('clickValue', clickValue);
@@ -250,10 +254,6 @@ function toggleMiniButtons(button228) {
         miniButtons.style.display = miniButtons.style.display === 'none' ? 'flex' : 'none';
         button228.classList.toggle('active');
 }
-document.getElementById('menu').addEventListener('click', function() {
-        // Замените URL ниже на нужный Вам адрес
-        window.location.href = 'https://suspect147.github.io/clicker-test/';
-});
 </script>
 </body>
 </html>
